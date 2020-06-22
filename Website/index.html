@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("responsiveNav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    <header>
+        <h1 id="top"><strong>Webf1 - web foundation 1</strong></h1>
+    </header>
+    <nav>
+        <ul class="topnav" id="responsiveNav">
+            <li><a class="selected" href="index.html">Home</a></li>
+            <li><a href="litReview.html">Literature Review</a></li>
+            <li><a href="discoveryLog.html">Discovery Log</a></li>
+            <li><a href="aboutMe.html">About me</a></li>
+            <li class="icon">
+                <a href="javascript:void(0);" style="font-size:18px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="content">
+        <section>
+            <h2>Welcome to my ePortfolio</h2>
+            <p>In this ePortfolo, you will able to find what I have learnt throughout this year in Webf1 as well as my coursework for this unit.</p>
+            <p>Webf1 is one of core units of my first year in Computer Science along with four more units.</p>
+            <p>Aside from what I study this year, I have included a page which called about me which contains different things about me outside university</p>
+        </section>
+        <section>
+            <h2>The other four units that I'm studying in the first year of Computer Science are:</h2>
+            <ul>
+                <li>CAR - Computer Architecture</li>
+                <li>INDADD - Introduction to Database Design and Development</li>
+                <li>NETFUN - Network Fundamentals</li>
+                <li>INPROG - Introduction To Programming</li>
+            </ul>
+        </section>
+        <section>
+            <h2>This year Webf1 coursework consists of:</h2>
+            <ul>
+                <li>Literature review - a review based on this topic "Mitigating personal information exposure on the web."</li>
+                <li>Discovery log - a dairy which records the things I have learnt throughout this year in both practical and lectures</li>
+                <li>Website - an ePortfolio for all the work I have done this year for webf1</li>
+            </ul>
+        </section>
+        <footer>
+            Copyright &copy; UP823183 - 2017, Validator| <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>
+        </footer>
+
+    </main>
+</body>
+
+</html>

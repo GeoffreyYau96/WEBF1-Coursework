@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Me</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("responsiveNav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    <header>
+        <h1 id="top"><strong>Webf1 - web foundation 1</strong></h1>
+    </header>
+    <nav>
+        <ul class="topnav" id="responsiveNav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="litReview.html">Literature Review</a></li>
+            <li><a href="discoveryLog.html">Discovery Log</a></li>
+            <li><a class="selected" href="aboutMe.html">About me</a></li>
+            <li class="icon">
+                <a href="javascript:void(0);" style="font-size:18px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </li>
+        </ul>
+    </nav>
+    <main id="content">
+      <section>
+        <h2>Who am I?</h2>
+        <p style="text-align:center;"><img src="Geoff.png" alt="Geoff"></p>
+        <p>This is a drawing of me that my friend drew specifically for my 18th birthday.</p>
+        <p>I am UP823183 and currenly studying BSc (Hons) Computer Science at University of Portsmouth.</p>
+      </section>
+      <section>
+        <h2>Hobbies</h2>
+        <ul>
+          <li>Gaming</li>
+          <li>Reading light novels and manga</li>
+          <li>Watching Anime</li>
+          <li>Eating good food</li>
+        </ul>
+      </section>
+      <section>
+        <h2>My Friends</h2>
+        <p style="text-align:center;"><img src="friend1.jpg" alt="friend1"></p>
+        <p style="text-align:center;"><img src="friend2withUncle.jpg" alt="friend2"></p>
+        <p style="text-align:center;"><img src="friend3.jpg" alt="friend3"></p>
+      </section>
+      <section>
+        <h2>Video</h2>
+        <p>My friend is doing his special boxing stance</p>
+        <p style="text-align:center;"><video controls preload="">
+          <source src="boxingStance.mp4" type="video/mp4">
+          <source src="boxingStance.mp4" type="video/ogg">
+          <source src="boxingStance.mp4" type="video/webm">
+          </video></p>
+      </section>
+      <footer>
+          Copyright &copy; UP823183 - 2017, Validator| <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>
+      </footer>
+
+    </main>
+
+</body>
+
+</html>

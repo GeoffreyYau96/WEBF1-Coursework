@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Discovery Log</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("responsiveNav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    <header>
+        <h1 id="top"><strong>Webf1 - web foundation 1</strong></h1>
+    </header>
+    <nav>
+        <ul class="topnav" id="responsiveNav">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="litReview.html">Literature Review</a>
+            </li>
+            <li>
+                <a class="selected" href="discoveryLog.html">Discovery Log</a>
+            </li>
+            <li>
+                <a href="aboutMe.html">About me</a>
+            </li>
+            <li class="icon">
+                <a href="javascript:void(0);" style="font-size:18px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </li>
+        </ul>
+    </nav>
+    <main id="content">
+        <section>
+            <h2 id="topic">Discovery Log</h2>
+            <h3 id="disContents">Contents</h3>
+              <p>First coursework - Literature Review</p>
+              <ol>
+                  <li>
+                      <a href="#prac1">Introduction Worksheet</a>
+                  </li>
+                  <li>
+                      <a href="#prac2">Web Security Worksheet</a>
+                  </li>
+                  <li>
+                      <a href="#prac3">Reviewing Literature Worksheet</a>
+                  </li>
+                  <li>
+                      <a href="#prac4">Academic Writing Worksheet</a>
+                  </li>
+              </ol>
+              <p>Second coursework - Website</p>
+              <ol>
+                  <li>
+                      <a href="#prac5">HTML Worksheet</a>
+                  </li>
+                  <li>
+                      <a href="#prac6">Style Worksheet</a>
+                  </li>
+                  <li>
+                      <a href="#prac7">Addressing Worksheet</a>
+                  </li>
+                  <li>
+                      <a href="#prac8">Using images Worksheet</a>
+                  </li>
+                  <li>
+                      <a href="#prac9">Productivity and Efficiency:Editors Worksheet</a>
+                  </li>
+                  <li>
+                      <a href="#prac10">Usability Worksheet</a>
+                  </li>
+                  <li>
+                      <a href="#prac11">Accessibility Worksheet</a>
+                  </li>
+                  <li>
+                      <a href="#prac12">SVG(Scalable Vector Graphics) Worksheet</a>
+                  </li>
+                  <li>
+                      <a href="#prac13">Database in HTML</a>
+                  </li>
+              </ol>
+        </section>
+        <section>
+            <h2>Literture Review </h2>
+            <p>During the first semester, I have focused a lot on the topic “Web security” to build more understanding around the topic as well as to explore different themes.</p>
+        </section>
+        <section>
+            <h2 id="prac1">Introduction Worksheet</h2>
+            <p>The first practical worksheet was setting my virtual machine (VM) up in the lab and checked if the status is running. Also, I read the document about VM and understood how to run web server or access the database using the VM. In addition,
+                I spent a week to test out different text editors. During the testing process, I found out there are many different editors beside notepad ++ like atom and sublime. After I played around each text editor, I think atom works the best for
+                me. It has a very high level of customisation on the user interface as well as many different packages that I can install which will help me later in the development of my website. The package manager is very useful to manage all my packages
+                and ensure all their versions are up to date.</p>
+        </section>
+        <section>
+            <h2 id="prac2">Web Security Worksheet </h2>
+            <p>The second practical worksheet was working with a group to identify different kinds of information that you generate on a day to day basis as well as categorise that information to one of these categories “secret”/” sensitive”/” public”.</p>
+            <table>
+                <tr>
+                    <th>Public</th>
+                    <th>Secret</th>
+                    <th>Sensitive/Private</th>
+                </tr>
+                <tr>
+                    <td>Entering/exiting the public building ie library</td>
+                    <td>Online Banking - Information on account details, money trans-fers (transfer ref)</td>
+                    <td>Card reader machines at shops - Purchasing goods, updating stocks</td>
+                </tr>
+                <tr>
+                    <td>Media streaming - Spotify, YouTube</td>
+                    <td>Business plans within a compa-ny</td>
+                    <td>Logging on a computer - To access files/ systems</td>
+                </tr>
+                <tr>
+                    <td>Facebook - Liking and shar-ing posts</td>
+                    <td>ganisation (Restaurants &amp; Fast Food chains) ingredients infor-mation private - e.g Coca Cola</td>
+                    <td>Facebook - Messaging</td>
+                </tr>
+                <tr>
+                    <td>Registering with card - At-tendance</td>
+                    <td>Military personnel and docu-ments - Nuclear access codes, weapon plans, military plans</td>
+                    <td>Texting/calling - Generated messages, recorded calls</td>
+                </tr>
+                <tr>
+                    <td>Bus system - Generates amount of passengers.</td>
+                    <td>Top secret information to na-tional security - Clearance</td>
+                    <td>Google - Browsing history, collect cookies, save password/ username, maps</td>
+                </tr>
+                <tr>
+                    <td>Coffee machine - Uses data to generate amount of sugar and type of beverage.</td>
+                    <td>Research data - medical</td>
+                    <td>Emails - Messages, attach-ments, files</td>
+                </tr>
+                <tr>
+                    <td>SmartTV - Broadcasts infor-mation from several channels</td>
+                    <td>Dark web - Hidden illegal do-mains</td>
+                    <td>Post - Letters</td>
+                </tr>
+                <tr>
+                    <td>Vending Machine - Uses numbers to output a product</td>
+                    <td>TCP - Encrypted Sites</td>
+                    <td>Scientific Reports </td>
+                </tr>
+                <tr>
+                    <td>Printers - Gathers infor-mation from computers to print information onto paper.</td>
+                    <td></td>
+                    <td>Government resources - fund-ing and financial data</td>
+                </tr>
+                <tr>
+                    <td>Wikipedia - Database of all information</td>
+                    <td></td>
+                    <td>Online Banking - Information on account details, money transfers (transfer ref)</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Cash register/ATM - Retrieves money and checks balance</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Business plans within a com-pany</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Account passwords</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2 id="prac3"> Reviewing Literature Worksheet</h2>
+            <p>The third practical worksheet was starting the literature coursework and the review must cover the topic “risks mitigation in personal online security”. </p>
+            <p>At the beginning of the practical session, I did a little bit of reading around the subject to identify some common ideas and themes so I could use them as a source of search terms. Also, I made notes on what I read and then converted the
+                notes into a big mind map which helped me to organise my thoughts on emerging themes. </p>
+            <p>After I got at least three sets of search terms, I started planning my research to find literature on the online university library. I entered the search terms on advanced search option to narrow down my search to reasonable degree as well
+                as the literature that I really needed for my review.</p>
+        </section>
+        <section>
+            <h2 id="prac4">Academic Writing Worksheet</h2>
+            <p>The fourth practical worksheet was improving my writing before I start my literature review. The first task was replacing phrasal verbs with better meaning words. The second task was replacing phrasal verbs with a more formal single word of
+                my choosing. The third task was choosing more appropriate adjectives or expression. The fourth task was choosing more formal alternative to replace the bold text. The fifth task was replacing the contractions with full words. The sixth
+                task was improving the writing by removing either the author or the reader. The seventh exercise was practicing how to write with more cautions. The eighth task was combining all the things above to rewrite given sentence. After I finished
+                this worksheet, I have improved both my writing skill and my vocabulary. The academic writing style document on <a href="http://moodle.port.ac.uk/pluginfile.php/1199010/mod_resource/content/1/Academic-writing-style.pdf">Moodle</a> helped
+                me to understand what to writing and what to not writing in my literature review “FOSCI”. F for formal, O for others, C for cations, S for succinct and I for impersonal.</p>
+            <p>Task 3 - Choose the more appropriate expression from those in <em>bold</em>.</p>
+            <ol>
+                <li>Researchers have made <em>considerable/great progress</em> in understanding the problem. - Considerable</li>
+                <li>We <em>got/obtained</em> preliminary results from the black box. - Obtained</li>
+                <li>The results from <em>some/numerous</em> experiments will be summarised. - Numerous</li>
+                <li>Loss of privacy a <em>consequence/thing</em> that can happen when posting photos online. - Consequence</li>
+                <li>In academic writing, appropriate sources are really <em>important/paramount</em>. - Paramount</li>
+                <li>Some ideas <em>bubbling out of our thought percolator/arising from our research</em> are are covered in that paper. - Arising from out research</li>
+            </ol>
+        </section>
+        <section>
+            <h2>Website</h2>
+            <p>After the first semester, I have been focused a lot on HTML to expand my knowledge on HTML.</p>
+        </section>
+        <section>
+            <h2 id="prac5">HTML Worksheet</h2>
+            <p>The fifth practical worksheet was starting to work with my virtual machine and how to start uploading web pages to my virtual machine. Also, I started my web server by connecting my virtual machine using SHH (secure shell). </p>
+        </section>
+        <section>
+            <h2 id="prac6">Style Worksheet</h2>
+            <p>The sixth practical worksheet was starting to work on CSS by building a simple HTML5 page and adding CSS style rules to it. In this practical, I have learnt two different ways to use a stylesheet with an html file. One is embedded the stylesheet
+                in the html file and the other one is link a CSS stylesheet to the html file. In addition, I have learnt two different selectors to restyle the html page. One of them is Class and the other one is ID. Both selectors allow me to link a
+                specific style to a certain section of the html. Furthermore, I experimented many different designs on <a href="http://www.csszengarden.com/">CSS Zen Garden</a> and I have learnt how to use different html properties to style the website
+                to the way I wanted.
+            </p>
+        </section>
+        <section>
+            <h2 id="prac7">Addressing Worksheet</h2>
+            <p>The seventh practical worksheet was starting to work on links. The first task was find four websites that I like and add them into the given index.html page. The four websites were Google chrome, YouTube, Facebook and Twitter. The second task
+                was about relative links so I was linking different html pages together and the tag I used to link the pages was a tag follow by href. The third task was adding target attribute for each of the links to make them open in a new window.</p>
+        </section>
+        <section>
+            <h2 id="prac8">Using images Worksheet</h2>
+            <p>The eighth practical worksheet was about images. The task was downloading a file with different examples and work through each of them. In this practical, I have learnt how to manipulate image’s properties such as the image enlarge when hover as well
+                as understand how each property affects the look of the image.  The one I found interesting is the responsive image and it helped me to understand how you can change an image based on the width size of the screen.</p>
+        </section>
+        <section>
+            <h2 id="prac9">Productivity and Efficiency:Editors Worksheet</h2>
+            <p>The ninth practical worksheet was about text editors. The task was experimenting more with the text editor Atom. In this practical, I used Atom for normal editing and I tested out the hotkeys such as the opening the command palette ctrl-shift-P.
+                Also, I went to settings and settings/themes to experiment different themes and front size that is comfortably readable for me. In addition, I tried to create my own snippet for something that I have needed to type too often. </p>
+        </section>
+        <section>
+            <h2 id="prac10">Usability worksheet</h2>
+            <p>The tenth practical worksheet was about usability. The task was starting to plan my site architecture for example how many pages I’ll need or what the content of those pages. In this practical, I exchanged ideas with the person sat to next me
+                which helped me to decide a lot of things like the colour for my background and the layout of my website.</p>
+        </section>
+        <section>
+            <h2 id="prac11">Accessibility Worksheet</h2>
+            <p>The eleventh practical worksheet was about accessibility. The first was simulating impairment to find out what is necessary adjustment for their computer so they can use it. For this task, I was using the given website
+                <a href="http://www.bbc.co.uk/accessibility/ ">BBC Accessibility</a> to find out what kind of adjuectment needed for different types of disability. The next task was evaluating rich’s website using <a href="https://www.w3.org/WAI/WCAG20/quickref/ ">POUR</a>.
+                The final task was evaluating my site using the provided form. In this practical, I have learnt the importance of accessibility like some colours don’t work well for colour blind people.</p>
+        </section>
+        <section>
+            <h2 id="prac12">SVG(Scalable Vector Graphics) Worksheet</h2>
+            <p>The twelfth practical worksheet was about SVG – Scalable Vector Graphics. The first task was downloading the lecture example and experimenting with the examples. The second task was trying to find a SVG drawing tool that is better for me. The third task was
+                looking at the SVG spec. The fourth task was drawing a few basic shapes and save them later for the web content. In this practical, I have learnt how to use SVG code to draw basic shapes like rectangle. I think this is useful because I can apply SVG code to
+                create more complex objects like logo.</p>
+            <p style="text-align:center;">
+              <svg width="370" height="180">
+                <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+                style="fill:red;stroke:black;stroke-width:5;opacity:0.5 " />
+              </svg>
+              <svg width="300" height="200">
+                <polygon points="100,10 40,198 190,78 10,78 160,198"
+                style="fill:blue;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+              </svg>
+              <svg width="320" height="180">
+                <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+                style="fill:orange;stroke:black;stroke-width:5;opacity:0.5" />
+              </svg>
+            </p>
+            <p>These SVG objects are created by using SVG source code and I created these during the practical session</p>
+            <p style="text-align:center;"><img src="Geoff.svg" alt="Geoff"></p>
+            <p>This is a drawing of me that my friend drew using illustrator. SVG is a good replacement for png or jpeg because SVG is vector grpahic base, it can scale any size to fit web pages.</p>
+            <p>Secondly, SVG is defined by XML format. Unlike bitmap image formats such as JPG or PNG, it does not consists of fixed set of dots, but shapes and their attributes, so it can be saved as the smallest size possible.</p>
+            <p>There are other benefits like text labels, descriptions that can be searched by seatch engines, and also scripting control for custom interactive events and animations.</p>
+        </section>
+        <section>
+            <h2 id="prac13">Database in HTML</h2>
+            <p>How do we connect databse in our computers to website running on client computers?</p>
+            <p>First, add a computer in between that can translate SQL to HTTP. Then, it talks SQL to the DB and HTTP to the clients. This is called 3-tier architecture.</p>
+            <p style="text-align:center;"><img src="threeTier.png" alt="3-tier architecture"></p>
+            <p>Separation of concerns is the process of breaking a computer program down into distinct features that overlaps in functionality as little as possible. A convern is any piece of interest of focus in a program. Progress towards SoC is traditionally achieved
+              through modularity and encapsulation, with the help of information hiding.</p>
+            <p>In modern website, there is an API (Application Programming Interface) between the client and the app server.</p>
+            <footer>
+              <p id="backlink"><a href="#top">Back to the top</a></p>
+              Copyright &copy; UP823183 - 2017, Validator| <a href="http://validator.w3.org/check?uri=referer ">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer ">CSS</a>
+            </footer>
+      </section>
+      </main>
+</body>
+
+</html>
